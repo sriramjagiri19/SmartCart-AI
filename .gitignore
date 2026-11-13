@@ -1,0 +1,40 @@
+
+# Python environments
+.venv/
+venv/
+myenv/
+__pycache__/
+.pytest_cache/
+*.pyc
+
+# Environment variables
+.env
+.env.*
+
+# Generated datasets
+data/raw/*
+data/processed/*
+data/ground_truth/*
+data/json/*
+
+# Generated outputs
+outputs/*
+
+# Keep folder placeholders
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/ground_truth/.gitkeep
+!data/json/.gitkeep
+!outputs/.gitkeep
+
+# IDE and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Development debugging scripts
+check_invalid.py
+debug_baseline.py
+inspect_recommendations.py
+inspect_test_data.py
